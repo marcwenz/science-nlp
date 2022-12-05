@@ -3,3 +3,6 @@ __pycache__
 poetry.lock
 .cache
 .mypy_cache
+build
+dist
+ScienceNLP.egg-info
