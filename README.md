@@ -1,6 +1,6 @@
-# Science NLP
+# Sentence Level Claim Substantiation and Feedback
 
-A NLP package for my third year project at UoM.
+A NLP package for my third year project at The University of Manchster.
 
 ## Description
 
@@ -13,8 +13,6 @@ Aims to provide writing feedback on text based on human interpretable feedback a
 ## Testing
 
 ## Usage
-
-This package uses (poetry)[https://python-poetry.org] for package management.
 
 ## Approach
 
@@ -50,6 +48,8 @@ Due to their structure, neural nets when applied to NLP can capture basic struct
 Sota are BERT and DistilBert models, the latter being a smaller version, which still has on par performance with its big brother.
 
 FEVER dataset https://github.com/QiangAIResearcher/Fact-Extraction-and-Verification
+
+ASAP dataset
 
 Biomedical abstract claim detection https://github.com/titipata/detecting-scientific-claim
 

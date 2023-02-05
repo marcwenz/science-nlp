@@ -1,13 +1,15 @@
 [tool.poetry]
-name = "science-nlp"
+name = "slcs"
 version = "0.1.0"
-description = ""
+description = "Sentence Level Claim Substantiation (and feedback)"
 authors = ["Marc Wenzlawski <marc.wenzlawski@student.manchester.ac.uk>"]
 readme = "README.md"
-packages = [{include = "science_nlp"}]
+packages = [{include = "slcs"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+spacy = "^3.5.0"
+torch = "^1.13.1"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -16,6 +18,7 @@ pytest-cov = "^4.0.0"
 mypy = "^0.991"
 pre-commit = "^2.20.0"
 nitpick = "^0.32.0"
+black = "^23.1.0"
 
 [build-system]
 requires = ["poetry-core"]

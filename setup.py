@@ -4,19 +4,19 @@ with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='science_nlp',
+    name='slcs',
     author='Marc Wenzlawski',
     author_email='marc.wenzlawski@student.manchester.ac.uk',
     description='Science NLP package for my third-year project',
     # keywords='example, pypi, package',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/marcwenz/science-nlp',
+    url='https://github.com/marcwenz/slcs',
     project_urls={
-        'Documentation': 'https://github.com/marcwenz/science-nlp',
+        'Documentation': 'https://github.com/marcwenz/slcs',
         'Bug Reports':
-        'https://github.com/marcwenz/science-nlp/issues',
-        'Source Code': 'https://github.com/marcwenz/science-nlp',
+        'https://github.com/marcwenz/slcs/issues',
+        'Source Code': 'https://github.com/marcwenz/slcs',
         # 'Funding': '',
         # 'Say Thanks!': '',
     },

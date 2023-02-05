@@ -7,3 +7,4 @@ build
 dist
 ScienceNLP.egg-info
 data
+.vscode
