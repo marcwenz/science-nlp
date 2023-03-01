@@ -6,7 +6,19 @@ A NLP package for my third year project at The University of Manchster.
 
 Aims to provide writing feedback on text based on human interpretable feedback and claim extraction.
 
-## Install
+## Structure
+
+```
+slcs/
+|-- main.py
+|-- data/
+|-- models/
+    |-- relevance/
+    |-- verification/
+
+```
+
+## Installing
 
 ## Development
 

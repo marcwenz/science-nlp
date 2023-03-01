@@ -1,0 +1,13 @@
+credentials:
+  usernames:
+    mwenz:
+      email: marcwenzlawski@gmail.com
+      name: Marc Wenzlawski
+      password: $2b$12$sVoIVMGrMMXTn0QWY/IF/u0hCBWDvuFsJSbEBnWQuD/g5uy3cKnfy # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: slcs_cookie
+preauthorized:
+  emails:
+  - marcw@gmail.com
