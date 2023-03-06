@@ -6,3 +6,11 @@ poetry.lock
 build
 dist
 ScienceNLP.egg-info
+assets
+.vscode
+
+# SpaCy
+assets
+corpus
+training
+packages
